@@ -379,7 +379,6 @@ v_br1	.req	v5
 	.size	crc16_t10dif_copy_pmull, .-crc16_t10dif_copy_pmull
 #endif
 
-ASM_DEF_RODATA
 	.align	4
 fold_constant:
 	.word 0x87e70000
